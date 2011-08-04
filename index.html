@@ -40,10 +40,7 @@
 			var src = image.getAttribute('src');
 			var num = +src.match(/\d/)[0];
 			
-			if (num < 2 || num > 2)
-				num = 2;
-			else
-				num = num + (Math.random() < 0.5 ? 1 : -1);
+			num = num < 2 || num > 2 ? 2 : num + (Math.random() < 0.5 ? 1 : -1);
 			
 			image.setAttribute('src', src.replace(/\d/, num));
 		};
