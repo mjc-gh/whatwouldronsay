@@ -1,0 +1,6 @@
+/* SITE */
+	Creator: Michael Coyne
+	Twitter: http://twitter.com/mikeycgto
+	Blog: http://www.mjcblog.net
+	
+	Credits: Ron Swanson -- for without him, this site would not be possible

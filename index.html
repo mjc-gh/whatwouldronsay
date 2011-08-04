@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What Would Ron Do?</title>
+	<meta name="viewport" content="width=420,height=540"/>  
+	
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="/styles.css" />
+	
+	<script>
+		var quote, image, current;
+		var quotes = [
+			"I've been quite open about this around the office: I don't want this parks department to build any parks, because I don't believe in government. I think that all government is a waste of taxpayer money. My dream is to have the park system privatized and run entirely for profit by corporations, like Chuck E. Cheese. They have an impeccable business model. I would rather work for Chuck E. Cheese.",
+			"My ex-wife Tammy cheated on me, then we divorced, then last week I ran into her sister Beth here; turns out she hates Tammy too, so we started dating. It's like a fairy tale.",
+			"On my deathbed, my final wish is to have my ex-wives rush to my side so I can use my dying breath to tell them both to go to hell one last time.",
+			"I got my first job when I was 9. Worked at a sheet metal factory. In two weeks, I was running the floor. Child labor laws are ruining this country."
+		];
+
+		var setQuote = function(){
+			var index;
+			
+			do {
+				index = Math.floor(Math.random() * quotes.length);
+			} while (index == current);
+			
+			current = index;
+			quote.innerHTML = '"' + quotes[index] + '"';
+		};
+
+		var setImage = function(){
+			var src = image.getAttribute('src');
+			var num = +src.match(/\d/)[0];
+			
+			if (num < 2 || num > 2)
+				num = 2;
+			else
+				num = num + (Math.random() < 0.5 ? 1 : -1);
+			
+			image.setAttribute('src', src.replace(/\d/, num));
+		};
+
+		window.onload = function(){
+			setTimeout(function(){ window.scrollTo(0, 1); }, 100);
+			
+			quote = document.getElementById('quote');
+			image = document.getElementById('image');
+			
+			setQuote();
+			
+			for (var i = 1; i <= 4; i+=2) {
+				(new Image()).src = image.getAttribute('src').replace(/\d/, i);
+			}
+		};
+	</script>
+</head>
+	
+<body>
+	<div id="page">
+		<div id="image-holder">
+			<img src="/img/ron-2.png" id="image" alt="Ron Swanson">
+		</div>
+	
+		<p id="quote"></p>
+	
+		<button onclick="javascript:setImage();setQuote();return false;">More Swanson</button>
+	</div>
+</body>
