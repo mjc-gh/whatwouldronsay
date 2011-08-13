@@ -7,9 +7,9 @@ var setQuote = function(){
 	} while (index == current);
 		
 	current = index;
-	quote.innerHTML = quotes[index].replace(/(\[[\w\s]+\])*([\w\W]+)/, function(str, m1, m2){
+	quote.innerHTML = quotes[index].replace(/(\[[\w ]+\] )*([\w\W]+)/, function(str, m1, m2){
 		m2 = '"' + m2 + '"';
-		return m1 ? m1 + '<br>' + m2 : m2;
+		return m1 ? m1.slice(0,-1) + '<br>' + m2 : m2;
 	});
 };
 	
