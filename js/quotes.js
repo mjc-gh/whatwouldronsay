@@ -35,4 +35,6 @@ var quotes = [
 	"I think the entire government should be privatized. Chuck E. Cheese could run the parks. Everything operated by tokens. Drop in a token, go on the swing set. Drop in another token, take a walk. Drop in a token, look at a duck.",
 	"If I wanted to bring a large number of deviled eggs, but I didn't want to share them with anyone else, can you guarantee fridge space?",
 	"Strippers do nothing for me. I like a strong, salt of the Earth, self-possessed woman at the top of her field. Your Steffi Grafs, your Sheryl Swoopeses, but I will take a free breakfast buffet anytime, anyplace.",
+	"When I was 12 my brother shot me in the pinky toe with a nail gun. Granted it was a hilarious prank and we all had a good laugh. But I avoided going to the doctor; I hate paper work. After a few weeks the toe just kind of fell off. The point is, the doctor said if I had come in right away, they might have saved the toe. You can't run away from your problems.",
+	"If any of you need anything at all too bad. Deal with your problems yourselves like adults."
 ];
