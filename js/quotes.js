@@ -36,5 +36,8 @@ var quotes = [
 	"If I wanted to bring a large number of deviled eggs, but I didn't want to share them with anyone else, can you guarantee fridge space?",
 	"Strippers do nothing for me. I like a strong, salt of the Earth, self-possessed woman at the top of her field. Your Steffi Grafs, your Sheryl Swoopeses, but I will take a free breakfast buffet anytime, anyplace.",
 	"When I was 12 my brother shot me in the pinky toe with a nail gun. Granted it was a hilarious prank and we all had a good laugh. But I avoided going to the doctor; I hate paper work. After a few weeks the toe just kind of fell off. The point is, the doctor said if I had come in right away, they might have saved the toe. You can't run away from your problems.",
-	"If any of you need anything at all too bad. Deal with your problems yourselves like adults."
+	"If any of you need anything at all too bad. Deal with your problems yourselves like adults.",
+	"When people start to get too chummy with me, I like to call them by the wrong name so they know that I really don't care about anything they're saying.",
+	"I enjoy government functions like I enjoy getting kicked in the nuggets with a stell toed boot.",
+	"My idea of a perfect government is one guy who sits in a small room at a desk, and the only thing he's allowed to decide is who to nuke. The man is chosen based on some kindof IQ test, and maybe also a physical tournament, like a decathlon. And women are brought to him, maybe... when he desires them."
 ];
